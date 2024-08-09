@@ -49,7 +49,7 @@ const Row3 = () => {
       field: "expense",
       headerName: "Expense",
       flex: 0.5,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `${params.value}`,
     },
     {
       field: "price",
@@ -90,7 +90,7 @@ const Row3 = () => {
       <DashboardBox gridArea="g"sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="List of Products"
-          sideText={`${productData?.length} products`}
+          sideText={`₹{productData?.length} products`}
         />
         <Box
           mt="0.5rem"

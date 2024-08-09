@@ -15,7 +15,11 @@ export const kpis = [
       {
         month: "february",
         revenue: "₹15832.77",
+<<<<<<< HEAD
         expeynses: "₹11677.84",
+=======
+        expenses: "₹11677.84",
+>>>>>>> 9efa260 (Initial commit)
         operationalExpenses: "₹7006.69",
         nonOperationalExpenses: "₹8661.15",
       },

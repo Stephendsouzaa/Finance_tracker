@@ -81,7 +81,7 @@ const Predictions = () => {
             domain={[12000, 26000]}
             axisLine={{ strokeWidth: "0" }}
             style={{ fontSize: "10px" }}
-            tickFormatter={(v) => `$${v}`}
+            tickFormatter={(v) => `₹₹{v}`}
           >
             <Label
               value="Revenue in RS"
