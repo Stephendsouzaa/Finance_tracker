@@ -43,8 +43,8 @@ const Predictions = () => {
   }, [kpiData]);
 
   return (
-    <DashboardBox width="100%" height="100%" p="1rem" overflow="hidden">
-      <FlexBetween m="1rem 2.5rem" gap="1rem">
+    <DashboardBox width="100%" height="100%" p="1rem" overflow="hidden"sx={{ backgroundColor: 'black'}}>
+      <FlexBetween m="1rem 2.5rem" gap="1rem" >
         <Box>
           <Typography variant="h3">Revenue and Predictions</Typography>
           <Typography variant="h6">
@@ -55,8 +55,8 @@ const Predictions = () => {
         <Button
           onClick={() => setIsPredictions(!isPredictions)}
           sx={{
-            color: palette.grey[900],
-            backgroundColor: palette.grey[700],
+            color: "white",
+            backgroundColor: "red",
             boxShadow: "0.1rem 0.1rem 0.1rem 0.1rem rgba(0,0,0,.4)",
           }}
         >
@@ -84,7 +84,7 @@ const Predictions = () => {
             tickFormatter={(v) => `$${v}`}
           >
             <Label
-              value="Revenue in USD"
+              value="Revenue in RS"
               angle={-90}
               offset={-5}
               position="insideLeft"

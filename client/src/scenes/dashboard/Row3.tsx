@@ -87,7 +87,7 @@ const Row3 = () => {
 
   return (
     <>
-      <DashboardBox gridArea="g">
+      <DashboardBox gridArea="g"sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="List of Products"
           sideText={`${productData?.length} products`}
@@ -121,7 +121,7 @@ const Row3 = () => {
           />
         </Box>
       </DashboardBox>
-      <DashboardBox gridArea="h">
+      <DashboardBox gridArea="h"sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="Recent Orders"
           sideText={`${transactionData?.length} latest transactions`}
@@ -155,7 +155,7 @@ const Row3 = () => {
           />
         </Box>
       </DashboardBox>
-      <DashboardBox gridArea="i">
+      <DashboardBox gridArea="i"sx={{ backgroundColor: 'black'}}>
         <BoxHeader title="Expense Breakdown By Category" sideText="+4%" />
         <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
           {pieChartData?.map((data, i) => (
@@ -179,7 +179,7 @@ const Row3 = () => {
           ))}
         </FlexBetween>
       </DashboardBox>
-      <DashboardBox gridArea="j">
+      <DashboardBox gridArea="j"sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="Overall Summary and Explanation Data"
           sideText="+15%"
@@ -198,10 +198,7 @@ const Row3 = () => {
           ></Box>
         </Box>
         <Typography margin="0 1rem" variant="h6">
-          Orci aliquam enim vel diam. Venenatis euismod id donec mus lorem etiam
-          ullamcorper odio sed. Ipsum non sed gravida etiam urna egestas
-          molestie volutpat et. Malesuada quis pretium aliquet lacinia ornare
-          sed. In volutpat nullam at est id cum pulvinar nunc.
+          Loading.......
         </Typography>
       </DashboardBox>
     </>

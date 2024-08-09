@@ -62,7 +62,7 @@ const Row1 = () => {
 
   return (
     <>
-      <DashboardBox gridArea="a">
+      <DashboardBox gridArea="a" sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="Revenue and Expenses"
           subtitle="top line represents revenue, bottom line represents expenses"
@@ -137,7 +137,7 @@ const Row1 = () => {
           </AreaChart>
         </ResponsiveContainer>
       </DashboardBox>
-      <DashboardBox gridArea="b">
+      <DashboardBox gridArea="b" sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="Profit and Revenue"
           subtitle="top line represents revenue, bottom line represents expenses"
@@ -196,7 +196,7 @@ const Row1 = () => {
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox>
-      <DashboardBox gridArea="c">
+      <DashboardBox gridArea="c" sx={{ backgroundColor: 'black'}}>
         <BoxHeader
           title="Revenue Month by Month"
           subtitle="graph representing the revenue month by month"
