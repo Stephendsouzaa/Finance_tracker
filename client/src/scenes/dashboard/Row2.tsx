@@ -134,7 +134,11 @@ const Row2 = () => {
               dataKey="value"
             >
               {pieData.map((entry, index) => (
+<<<<<<< HEAD
                 <Cell key={`cell-₹{index}`} fill={pieColors[index]} />
+=======
+                <Cell key={`cell-${index}`} fill={pieColors[index]} />
+>>>>>>> 6d531dd (first commit)
               ))}
             </Pie>
           </PieChart>
@@ -178,7 +182,11 @@ const Row2 = () => {
               axisLine={false}
               tickLine={false}
               style={{ fontSize: "10px" }}
+<<<<<<< HEAD
               tickFormatter={(v) => `₹{v}`}
+=======
+              tickFormatter={(v) => `$${v}`}
+>>>>>>> 6d531dd (first commit)
             />
             <YAxis
               type="number"

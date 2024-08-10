@@ -12,7 +12,11 @@ const TransactionSchema = new Schema(
     },
     amount: {
       type: mongoose.Types.Currency,
+<<<<<<< HEAD
       currency: "RS",
+=======
+      currency: "USD",
+>>>>>>> 6d531dd (first commit)
       get: (v) => v / 100,
     },
     productIds: [

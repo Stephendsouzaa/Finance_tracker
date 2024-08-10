@@ -81,10 +81,17 @@ const Predictions = () => {
             domain={[12000, 26000]}
             axisLine={{ strokeWidth: "0" }}
             style={{ fontSize: "10px" }}
+<<<<<<< HEAD
             tickFormatter={(v) => `₹₹{v}`}
           >
             <Label
               value="Revenue in RS"
+=======
+            tickFormatter={(v) => `$${v}`}
+          >
+            <Label
+              value="Revenue in USD"
+>>>>>>> 6d531dd (first commit)
               angle={-90}
               offset={-5}
               position="insideLeft"

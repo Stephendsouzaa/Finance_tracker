@@ -10,7 +10,10 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> 6d531dd (first commit)
 *.local
 
 # Editor directories and files
